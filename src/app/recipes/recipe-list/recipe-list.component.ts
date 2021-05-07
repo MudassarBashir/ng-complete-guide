@@ -9,8 +9,8 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe(
-      'A Test Recipe',
-      'This is a test recipe.',
+      'Veggie Kabob',
+      'So yummy bhaiya.',
       'https://simpleveganblog.com/wp-content/uploads/2019/07/Vegetable-kabobs-5.jpg'
     ),
     new Recipe(
