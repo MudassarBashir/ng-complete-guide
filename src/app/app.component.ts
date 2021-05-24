@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  currentHeaderItemToShow = 'recipes';
+  loadedFeature = 'recipe';
 
-  afterHeaderItemSelected(item: string) {
-    this.currentHeaderItemToShow = item;
+  onNavigate(feature: string) {
+    this.loadedFeature = feature;
   }
 }
